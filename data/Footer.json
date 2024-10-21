@@ -1,0 +1,27 @@
+[
+    {
+        "title": {
+            "tr": "Kurumsal",
+            "en": "Corporate",
+            "ru": ""
+        },
+        "links": [
+            {
+                "label": {
+                    "tr": "Hakkımızda",
+                    "en": "About Us",
+                    "ru": ""
+                },
+                "link": "/hakkimizda"
+            }, 
+            {
+                "label": {
+                    "tr": "İnsan Kaynakları",
+                    "en": "Human Resources",
+                    "ru": ""
+                },
+                "link": "/insan-kaynaklari"
+            } 
+        ]
+    }
+]

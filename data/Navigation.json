@@ -1,0 +1,42 @@
+[
+    {
+        "show": true,
+        "order": 1,
+        "link": "/fuar-takvimi",
+        "label": {
+            "tr": "Fuar Takvimi",
+            "en": "Exhibition Calendar",
+            "ru": "Календарь выставки"
+        }
+    },
+    {
+        "show": true,
+        "order": 3,
+        "link": "/hakkimizda",
+        "label": {
+            "tr": "Hakkımızda",
+            "en": "About Us",
+            "ru": "О нас"
+        }
+    },
+    {
+        "show": true,
+        "order": 4,
+        "link": "/kariyer",
+        "label": {
+            "tr": "Kariyer",
+            "en": "Career",
+            "ru": "Карьера"
+        }
+    },
+    {
+        "show": true,
+        "order": 5,
+        "link": "/iletisim",
+        "label": {
+            "tr": "İletişim",
+            "en": "Contact",
+            "ru": "Контакты"
+        }
+    }
+]

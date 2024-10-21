@@ -2,6 +2,7 @@
   "name": "introfair",
   "version": "0.1.0",
   "private": true,
+  "main": "server.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,12 +10,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.10",
+    "@heroicons/react": "^2.1.5",
+    "classnames": "^2.5.1",
+    "framer-motion": "^11.11.9",
+    "i18n-iso-countries": "^7.12.0",
+    "next": "14.2.15",
+    "next-translate": "^2.6.2",
     "react": "^18",
+    "react-countdown": "^2.3.6",
+    "react-country-flag": "^3.1.0",
     "react-dom": "^18",
-    "next": "14.2.15"
+    "react-infinite-logo-slider": "^1.0.13",
+    "react-modern-drawer": "^1.4.0",
+    "use-mobile-detect-hook": "^1.0.5"
   },
   "devDependencies": {
+    "next-translate-plugin": "^2.6.2",
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
+  },
+  "engines": {
+    "node": "18"
   }
 }

@@ -1,0 +1,189 @@
+[
+    {
+        "country": "TR",
+        "name": "Detailing Expo",
+        "logo": "",
+        "description": {
+            "tr": "Detaylı Araç Temizliği ve Bakım Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "28 - 30 August 2025"
+    },
+    {
+        "country": "KZ",
+        "name": "Bakery Expo Kazakhstan",
+        "logo": "",
+        "description": {
+            "tr": "Detaylı Araç Temizliği ve Bakım Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "2026"
+    },
+    {
+        "country": "KZ",
+        "name": "Windoor Expo Kazakhstan",
+        "logo": "",
+        "description": {
+            "tr": "Detaylı Araç Temizliği ve Bakım Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "2025"
+    },
+    {
+        "country": "KZ",
+        "name": "Lift Expo Kazakhstan",
+        "logo": "",
+        "description": {
+            "tr": "Uluslararası Asansör & Yürüyen Merdiven Ekipmanları Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "2026"
+    },
+    {
+        "country": "AZ",
+        "name": "Lift Expo Azerbaijan",
+        "logo": "",
+        "description": {
+            "tr": "Uluslararası Asansör & Yürüyen Merdiven Ekipmanları Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "26 - 28 February 2025"
+    },
+    {
+        "country": "UZ",
+        "name": "Lift Expo Uzbekistan",
+        "logo": "",
+        "description": {
+            "tr": "Uluslararası Asansör & Yürüyen Merdiven Ekipmanları Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "2025"
+    },
+    {
+        "country": "KZ",
+        "name": "GreenHouses Kazakhstan",
+        "logo": "",
+        "description": {
+            "tr": "Detaylı Araç Temizliği ve Bakım Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "1 - 3 Nisan 2025"
+    },
+    {
+        "country": "KZ",
+        "name": "Kitchen & Bath Expo",
+        "logo": "",
+        "description": {
+            "tr": "Detaylı Araç Temizliği ve Bakım Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "1 - 3 Nisan 2025"
+    },
+    {
+        "country": "KZ",
+        "name": "Electric & Hybrid Vehicle Expo Kazakhstan",
+        "logo": "",
+        "description": {
+            "tr": "Uluslararası Pil Akü Batarya ve Teknolojileri Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "16 - 18 Ekim 2025"
+    },
+    {
+        "country": "KZ",
+        "name": "Battery Expo Kazakhstan",
+        "logo": "",
+        "description": {
+            "tr": "Uluslararası Pil Akü Batarya ve Teknolojileri Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "16 - 18 Ekim 2025"
+    },
+    {
+        "country": "UZ",
+        "name": "Tool Expo Uzbekistan",
+        "logo": "",
+        "description": {
+            "tr": "Uluslararası Hırdavat Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "Kasım 2025"
+    },
+    {
+        "country": "UZ",
+        "name": "Battery Expo Uzbekistan",
+        "logo": "",
+        "description": {
+            "tr": "Uluslararası Pil Akü Batarya ve Teknolojileri Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "2025"
+    },
+    {
+        "country": "UZ",
+        "name": "Electric & Hybrid Vehicle Expo Uzbekistan",
+        "logo": "",
+        "description": {
+            "tr": "Uluslararası Pil Akü Batarya ve Teknolojileri Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "2025"
+    },
+    {
+        "country": "UZ",
+        "name": "Solar & Energy Technology Uzbekistan",
+        "logo": "",
+        "description": {
+            "tr": "Uluslararası Güneş Enerjisi ve Teknolojisi Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "2025"
+    },
+    {
+        "country": "RU",
+        "name": "AgroRus",
+        "logo": "",
+        "description": {
+            "tr": "Detaylı Araç Temizliği ve Bakım Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "August 2026"
+    },
+    {
+        "country": "UZ",
+        "name": "Jewelry Expo Uzbekistan",
+        "logo": "",
+        "description": {
+            "tr": "2. Özbekistan Uluslararası Mücevherat, Değerli Taşlar, Saat & Malzemeleri Fuarı            ",
+            "en": "",
+            "ru": ""
+        },
+        "date": "5 - 7 June 2025"
+    },
+    {
+        "country": "KZ",
+        "name": "Zoo Expo Kazakhstan",
+        "logo": "",
+        "description": {
+            "tr": "5. Uluslararası Evcil Hayvan, Ürün, Malzeme & Aksesuar Tedarikçileri Fuarı",
+            "en": "",
+            "ru": ""
+        },
+        "date": "5 - 7 June 2025"
+    }
+]

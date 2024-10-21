@@ -1,0 +1,11 @@
+{
+    "locales": ["en", "tr", "ru"],
+    "defaultLocale": "tr",
+    "localeDetection": true,
+    "pages": {
+        "*": ["common"],
+        "/iletisim": {
+            "en": "/contact"
+        }
+    }
+}
