@@ -31,7 +31,7 @@ export default function Container({
     placeContentBaseline = false,
     placeContentStretch = false,
 }) {
-    return createElement('div', {
+    return createElement('section', {
         className: classNames("max-w-screen-2xl mx-auto p-6 gap-4 py-12", {
             [`h-[${height}]`]: (typeof height === 'string'),
             ['flex']: flex,

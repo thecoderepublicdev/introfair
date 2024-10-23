@@ -10,7 +10,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        manrope: ['"Manrope"', ...defaultTheme.fontFamily.sans]
+        manrope: ['"Manrope"', ...defaultTheme.fontFamily.sans],
+        outfit: ['"Outfit"', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         brand: {

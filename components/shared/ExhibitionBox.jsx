@@ -2,8 +2,10 @@ import { CalendarDaysIcon, GlobeAmericasIcon, MapPinIcon } from "@heroicons/reac
 import useCountryName from "hooks/useCountryName";
 import useSlug from "hooks/useSlug";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ExhibitionBox({
+    logo = false,
     name = 'Exhibition Name',
     description = 'Exhibition Description is goes here',
     date = '1-3 January 2024',
@@ -14,6 +16,11 @@ export default function ExhibitionBox({
         <div className="flex gap-4 flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row w-full bg-white/25 backdrop-blur-md transition-all ease-in-out rounded-xl">
             <div className="flex flex-initial flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row items-start md:items-center lg:items-center xl:items-center 2xl:items-center flex-grow gap-6">
                 <picture className="inline-flex items-center justify-center min-w-[200px] min-h-[200px] bg-[#F5F5F5] rounded-xl">
+                    <img 
+                        src={`/assets/logo/exhibition/colored/${logo}`}
+                        className="p-4 w-[200px] h-auto"
+                        alt={`${name} | ${description}`}
+                    />
                 </picture>
                 
                 <div className="grid gap-4 w-full md:w-fit lg:w-fit xl:w-fit 2xl:w-fit">

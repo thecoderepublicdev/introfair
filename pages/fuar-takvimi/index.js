@@ -15,12 +15,13 @@ const ExhibitionList = ({year}) => {
 
     return(
         <div className="grid gap-4">
-            {list.map((item, index) => (
+            {list.map((exhibition, index) => exhibition.isActive && (
                 <ExhibitionBox
                     key={index}
-                    name={item.name}
-                    date={item.date}
-                    country={item.country}
+                    logo={exhibition.logo}
+                    name={exhibition.name}
+                    date={exhibition.date}
+                    country={exhibition.country}
                 />
             ))}
         </div>
@@ -39,8 +40,8 @@ export default function Page() {
     return(
         <Layout>
             <section className="min-h-[400px] grid place-content-center place-items-center">
-                <Container>
-                    <h1 className="text-brand-primary-500 font-bold text-center text-7xl">Fuar Takvimi</h1>
+                <Container flex flexCol>
+                    <h1 className="text-brand-primary-500 font-black font-outfit text-center text-7xl">Fuar Takvimi</h1>
                     <p className="text-center">Intro Fair Exhibition & Conference olarak gerçekleştirdiğimiz fuarları keşfedin.</p>
                 </Container>
             </section>
