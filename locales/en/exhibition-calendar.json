@@ -1,0 +1,10 @@
+{
+    "masthead": {
+        "title": "Exhibition Calendar",
+        "description": "Discover the fairs we organize as Intro Fair Exhibition & Conference."
+    },
+    "exhibitionListSection": {
+        "subtitle": "Total {{count}} Exhibition",
+        "title": "{{year}} Exhibitions"
+    }
+}

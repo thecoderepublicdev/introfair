@@ -1,0 +1,10 @@
+{
+    "masthead": {
+        "title": "Fuar Takvimi",
+        "description": "Intro Fair Exhibition & Conference olarak gerçekleştirdiğimiz fuarları keşfedin."
+    },
+    "exhibitionListSection": {
+        "subtitle": "Toplam {{count}} Fuar",
+        "title": "{{year}} Fuarları"
+    }
+}

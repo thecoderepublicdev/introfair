@@ -2,5 +2,10 @@
     "localizationModal": {
         "title": "Dilinizi Seçin",
         "description": "Daha iyi bir deneyim sunabilmemiz için lütfen ana dilinizi seçin."
+    },
+    "buttonLabels": {
+        "applyForParticipate": "Katılımcı Ol",
+        "applyForVisitor": "Ziyaretçi Ol",
+        "learnMore": "Detaylı Bilgi Edin"
     }
 }

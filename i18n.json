@@ -4,8 +4,6 @@
     "localeDetection": true,
     "pages": {
         "*": ["common"],
-        "/iletisim": {
-            "en": "/contact"
-        }
+        "/fuar-takvimi": ["exhibition-calendar"]
     }
 }

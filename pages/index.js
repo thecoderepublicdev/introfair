@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import HomeMasthead from "@components/home/Masthead";
 import Layout from "./_layout";
-import * as Services from '@data/Services';
+import Services from "@data/Services";
 import ServicesBox from "@components/home/ServicesBox";
 import useTranslation from 'next-translate/useTranslation'
 import Container from "@components/shared/Container";
@@ -11,8 +11,8 @@ export default function Home() {
   const [servicesList, setServices] = useState([]);
 
   useEffect(() => {
-    setServices(Services.default)
-  }, [servicesList])
+    setServices(Services)
+  }, [Services, servicesList])
 
   return(
     <Layout>

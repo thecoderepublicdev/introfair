@@ -9,8 +9,8 @@ export default function IconBox({
 }) {
     return(
         <div className="flex items-center content-center gap-2">
-            <div className="rounded-lg w-[80px] h-[80px] bg-brand-primary-500 grid place-content-center place-items-center">
-                <Icon name={icon} size={36} color="white"/>  
+            <div className="rounded-lg w-[72px] h-[72px] p-4 bg-brand-primary-500 grid place-content-center place-items-center">
+                <Icon name={icon} size={24} color="white"/>  
             </div>
 
             <div className="grid gap-0">

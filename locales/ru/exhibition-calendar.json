@@ -1,0 +1,10 @@
+{
+    "masthead": {
+        "title": "Календарь выставок",
+        "description": "Познакомьтесь с выставками, которые мы организуем как Intro Fair Exhibition & Conference."
+    },
+    "exhibitionListSection": {
+        "subtitle": "Всего {{count}} выставки",
+        "title": "{{year}} Выставки"
+    }
+}

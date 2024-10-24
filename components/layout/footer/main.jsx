@@ -1,11 +1,10 @@
 import Container from "@components/shared/Container";
-import Grid from "@components/shared/Grid";
 import FooterLink from "./FooterLink";
-import * as Services from '@data/Services'
+import Services from "@data/Services";
 import useTranslation from "next-translate/useTranslation";
 
 export default function Footer() {
-    const { lang } = useTranslation();
+    const { t, lang } = useTranslation('footer');
 
     return(
         <footer className="py-[50px] bg-gray-100">

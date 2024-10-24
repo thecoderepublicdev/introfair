@@ -2,5 +2,10 @@
     "localizationModal": {
         "title": "Выберите язык",
         "description": "Пожалуйста, выберите ваш родной язык, чтобы мы могли предоставить вам лучший опыт."
-    }    
+    },
+    "buttonLabels": {
+        "applyForParticipate": "Стать участником",
+        "applyForVisitor": "Стать посетителем",
+        "learnMore": "Узнать больше"
+    }
 }

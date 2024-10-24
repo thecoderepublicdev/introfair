@@ -2,7 +2,7 @@ import { CalendarDaysIcon, GlobeAmericasIcon, MapPinIcon } from "@heroicons/reac
 import useCountryName from "hooks/useCountryName";
 import useSlug from "hooks/useSlug";
 import Link from "next/link";
-import Image from "next/image";
+import useTranslation from "next-translate/useTranslation";
 
 export default function ExhibitionBox({
     logo = false,
@@ -12,6 +12,7 @@ export default function ExhibitionBox({
     location = 'İstanbul Fuar Merkezi',
     country = 'Türkiye'
 }) {
+    const { t } = useTranslation('common');
     return(
         <div className="flex gap-4 flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row w-full bg-white/25 backdrop-blur-md transition-all ease-in-out rounded-xl">
             <div className="flex flex-initial flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row items-start md:items-center lg:items-center xl:items-center 2xl:items-center flex-grow gap-6">
@@ -47,9 +48,15 @@ export default function ExhibitionBox({
             </div>
             
             <div className="flex-none grid gap-4">
-                <a className="rounded-full font-bold text-center p-4 bg-brand-primary-500 text-white">Katılımcı Ol</a>
-                <a className="rounded-full font-bold text-center p-4 bg-brand-primary-200 text-brand-primary-500">Ziyaretçi Ol</a>
-                <Link href={`/exhibition/${useSlug(name)}`} className="rounded-full font-bold text-center border-2 border-transparent hover:border-brand-primary-500 p-4 text-brand-primary-500">Detaylı Bilgi Edin</Link>
+                <a className="rounded-full min-w-[200px] font-bold text-center p-4 bg-brand-primary-500 text-white">
+                    {t('buttonLabels.applyForParticipate')}
+                </a>
+                <a className="rounded-full min-w-[200px] font-bold text-center p-4 bg-brand-primary-200 text-brand-primary-500">
+                    {t('buttonLabels.applyForVisitor')}
+                </a>
+                <Link href={`/exhibition/${useSlug(name)}`} className="rounded-full min-w-[200px] font-bold text-center border-2 border-transparent hover:border-brand-primary-500 p-4 text-brand-primary-500">
+                    {t('buttonLabels.learnMore')}
+                </Link>
             </div>
         </div>
     )
